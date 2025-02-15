@@ -27,9 +27,9 @@ void help()
 {
     puts("You need to put a rules file in the same directory as this program.");
     puts("The format of the rules file:");
-    puts("  The first line: the tags that a problem must contain all of them, separated by commas. Can be leaved blank, which means you do not care about this aspect.");
-    puts("  The second line: the tags that a problem must not contain any of them, separated by commas. Can be leaved blank, which means you do not care about this aspect.");
-    puts("  The third line: the tags that a problem must contain at least one of them, separated by commas. Can be leaved blank, which means you do not care about this aspect.");
+    puts("  The first line: the tags that a problem must contain all of them, separated by commas. Can be left blank, which means you do not care about this aspect.");
+    puts("  The second line: the tags that a problem must not contain any of them, separated by commas. Can be left blank, which means you do not care about this aspect.");
+    puts("  The third line: the tags that a problem must contain at least one of them, separated by commas. Can be left blank, which means you do not care about this aspect.");
     puts("  The fourth line: the minimum rating of a problem. Can be \"-1\", which means you do not care about this aspect.");
     puts("  The fifth line: the maximum rating of a problem. Can be \"-1\", which means you do not care about this aspect.");
     puts("  The sixth line: how to sort the problems.");
